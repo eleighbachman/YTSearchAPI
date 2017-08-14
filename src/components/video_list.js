@@ -7,8 +7,11 @@ import VideoListItem from './video_list_item';
 // Aim to use built in iterators rather than for loops in JS React
 const VideoList = (props) => {
 
-  const videoArray = props.videos.map( function(video) { return (
-    <VideoListItem />
+  const videoArray = props.videos.map( (video) => { return (
+    <VideoListItem
+      onVideoSelect={props.onVideoSelect}
+      video={video}
+      key={video.etag}/>
   )});
 
   return (
