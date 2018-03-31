@@ -41,7 +41,7 @@ class App extends Component {
 
     const videoSearch = _.debounce((term) => { this.videoSearch(term) }, 300)
 
-    // takes in the function, returns it as videoSearch that can only be called once every 300 milliseconds. 
+    // takes in the function, returns it as videoSearch that can only be called once every 300 milliseconds.
 
     return (
       <div>
@@ -51,6 +51,7 @@ class App extends Component {
           onVideoSelect={selectedVideo => this.setState({selectedVideo})}
           videos = {this.state.videos}
           />
+        <div id="footer" />
       </div>
     );
 

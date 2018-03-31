@@ -14,7 +14,7 @@
 .video-detail .details {
   margin-top: 10px;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #eee;
   border-radius: 4px;
 
 }
@@ -24,5 +24,33 @@
 }
 
 .list-group-item:hover {
-  background-color: #eee;
+  background-color: #F9D8DE;
+  font-weight: bold;
+}
+
+.searchHeader {
+  font-family: 'Pacifico', cursive;
+  padding: 10px;
+  font-size: 42px;
+}
+
+.container {
+  background-color: #F9D8DE;
+  padding: 5px;
+
+}
+
+.videoTitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.media-heading {
+  font-size: 14px;
+}
+
+footer {
+  height: 60px;
+  background-color: #252525;
+
 }
